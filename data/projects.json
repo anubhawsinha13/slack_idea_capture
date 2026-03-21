@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "AI Blog Workflow",
+      "description": "Slack-powered content pipeline: slash command -> Perplexity research -> Claude writing -> image injection -> GitHub Actions -> WordPress publish. Fully automated blog post generation from Slack.",
+      "year": "2025",
+      "tags": ["AI", "Python", "Slack", "GitHub Actions"],
+      "github": "https://github.com/anubhawsinha/blog_post_workflow",
+      "status": "active",
+      "from_idea_id": null,
+      "created_at": "2026-03-21T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "anuva.blog",
+      "description": "A Next.js blog with interactive simulations for AI concepts -- live tokenizers, attention visualizers, context window demos.",
+      "year": "2025",
+      "tags": ["Next.js", "D3.js", "React", "Interactive"],
+      "github": "https://github.com/anubhawsinha/anuva-blog",
+      "status": "active",
+      "from_idea_id": null,
+      "created_at": "2026-03-21T00:00:00Z"
+    }
+  ],
+  "next_id": 3
+}

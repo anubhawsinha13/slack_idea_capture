@@ -1,0 +1,44 @@
+{
+  "ideas": [
+    {
+      "id": 1,
+      "text": "A2UI — Agent-to-User Interfaces: how AI agents should present information to humans",
+      "category": "blog",
+      "tags": ["ai", "ux", "agents"],
+      "status": "captured",
+      "source": "manual",
+      "slack_user": "",
+      "slack_channel": "",
+      "created_at": "2026-03-21T00:00:00Z",
+      "promotions": [],
+      "evaluation": null
+    },
+    {
+      "id": 2,
+      "text": "AGUI — Agent-Guided User Interfaces: frameworks for building UIs that AI agents can drive",
+      "category": "blog",
+      "tags": ["ai", "ux", "frameworks"],
+      "status": "captured",
+      "source": "manual",
+      "slack_user": "",
+      "slack_channel": "",
+      "created_at": "2026-03-21T00:00:00Z",
+      "promotions": [],
+      "evaluation": null
+    },
+    {
+      "id": 3,
+      "text": "CopilotKit — open-source framework for building AI copilots into React apps",
+      "category": "blog",
+      "tags": ["ai", "react", "open-source"],
+      "status": "captured",
+      "source": "manual",
+      "slack_user": "",
+      "slack_channel": "",
+      "created_at": "2026-03-21T00:00:00Z",
+      "promotions": [],
+      "evaluation": null
+    }
+  ],
+  "next_id": 4
+}
