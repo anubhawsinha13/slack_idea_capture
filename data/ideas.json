@@ -120,7 +120,47 @@
       "slack_channel": "C0AKSHC6UES",
       "created_at": "2026-03-21T19:18:22Z",
       "promotions": [],
-      "evaluation": null
+      "evaluation": {
+        "scores": {
+          "market_demand": 8,
+          "competition_level": 7,
+          "uniqueness": 4,
+          "feasibility": 8,
+          "content_potential": 9
+        },
+        "overall_score": 6.8,
+        "verdict": "yes",
+        "competitors": [
+          {
+            "name": "ScrapeGraphAI",
+            "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+            "notes": "Direct competitor with 8k GitHub stars, LLM-based natural language scraping"
+          },
+          {
+            "name": "Firecrawl",
+            "url": "https://github.com/mendableai/firecrawl",
+            "notes": "AI-powered crawler with $2M funding and 50k+ API users"
+          },
+          {
+            "name": "Diffbot",
+            "url": "https://www.diffbot.com/",
+            "notes": "Enterprise leader with $51M funding and 1k+ enterprise clients"
+          },
+          {
+            "name": "Apify",
+            "url": "https://apify.com/",
+            "notes": "Market leader with $10M+ ARR and 100k+ users, adding AI actors"
+          }
+        ],
+        "market_summary": "The AI-driven web scraping market is experiencing explosive growth with a 39.4% CAGR, driven by demand for LLM training data and natural language interfaces. The global web scraping market is projected to reach $2.87B by 2034, with AI integration being a key differentiator.",
+        "recommendation": "Pursue this as educational content focusing on practical tutorials and comparisons, but avoid building a competing product unless you can solve the reliability and enterprise compliance gaps. The content potential is extremely high given the technical interest and rapid market growth.",
+        "risks": [
+          "High competition from well-funded players like Diffbot and rapidly growing open-source projects",
+          "Technical reliability issues with LLM-based scraping on complex sites reduce practical adoption"
+        ],
+        "research_source": "perplexity",
+        "evaluated_at": "2026-03-21T19:18:46Z"
+      }
     }
   ],
   "next_id": 6
