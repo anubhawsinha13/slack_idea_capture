@@ -4,7 +4,11 @@
       "id": 1,
       "text": "A2UI — Agent-to-User Interfaces: how AI agents should present information to humans",
       "category": "blog",
-      "tags": ["ai", "ux", "agents"],
+      "tags": [
+        "ai",
+        "ux",
+        "agents"
+      ],
       "status": "captured",
       "source": "manual",
       "slack_user": "",
@@ -17,7 +21,11 @@
       "id": 2,
       "text": "AGUI — Agent-Guided User Interfaces: frameworks for building UIs that AI agents can drive",
       "category": "blog",
-      "tags": ["ai", "ux", "frameworks"],
+      "tags": [
+        "ai",
+        "ux",
+        "frameworks"
+      ],
       "status": "captured",
       "source": "manual",
       "slack_user": "",
@@ -30,7 +38,11 @@
       "id": 3,
       "text": "CopilotKit — open-source framework for building AI copilots into React apps",
       "category": "blog",
-      "tags": ["ai", "react", "open-source"],
+      "tags": [
+        "ai",
+        "react",
+        "open-source"
+      ],
       "status": "captured",
       "source": "manual",
       "slack_user": "",
@@ -38,7 +50,118 @@
       "created_at": "2026-03-21T00:00:00Z",
       "promotions": [],
       "evaluation": null
+    },
+    {
+      "id": 4,
+      "text": "why do we need skills in agentic development in an existing enterprise level stack",
+      "category": "blog",
+      "tags": [],
+      "status": "captured",
+      "source": "slack_command",
+      "slack_user": "U0AKBNKMP2R",
+      "slack_channel": "C0AKSHC6UES",
+      "created_at": "2026-03-21T05:25:33Z",
+      "promotions": [],
+      "evaluation": {
+        "scores": {
+          "market_demand": 9,
+          "competition_level": 8,
+          "uniqueness": 4,
+          "feasibility": 8,
+          "content_potential": 9
+        },
+        "overall_score": 6.8,
+        "verdict": "yes",
+        "competitors": [
+          {
+            "name": "Kore.ai",
+            "url": "https://kore.ai",
+            "notes": "Enterprise agentic AI platform with 300+ pre-built agents and 250+ integrations"
+          },
+          {
+            "name": "Domino Data Lab",
+            "url": "https://dominodatalab.com",
+            "notes": "Developer-first workbench for agentic AI with governance and enterprise data integration"
+          },
+          {
+            "name": "Google Vertex AI Agent Builder",
+            "url": "https://cloud.google.com/vertex-ai",
+            "notes": "Visual low-code builder for agents with Microsoft 365 integration"
+          },
+          {
+            "name": "LangChain/LangGraph",
+            "url": "https://langchain.com",
+            "notes": "Modular frameworks for LLM-powered agents and multi-agent workflows"
+          },
+          {
+            "name": "Microsoft Semantic Kernel",
+            "url": "https://github.com/microsoft/semantic-kernel",
+            "notes": "Open-source framework for embedding agents in Microsoft ecosystem"
+          }
+        ],
+        "market_summary": "Extremely high demand exists for agentic AI skills in enterprise environments as organizations shift from reactive AI to autonomous systems integrated with existing CRM, ERP, and cloud infrastructure. The market shows rapid acceleration post-2024 with major players launching comprehensive platforms.",
+        "recommendation": "Pursue this as educational content focusing on practical skill development and integration challenges with legacy systems. Position as bridging the gap between enterprise needs and technical implementation rather than competing directly with platforms.",
+        "risks": [
+          "Market saturation with major cloud providers and established AI platforms already addressing core needs",
+          "Rapid pace of change in agentic AI could make specific technical content obsolete quickly"
+        ],
+        "research_source": "perplexity",
+        "evaluated_at": "2026-03-21T05:26:00Z"
+      }
+    },
+    {
+      "id": 5,
+      "text": "https://pub.towardsai.net/from-css-selectors-to-natural-language-web-scraping-with-scrapegraphai-43d30dea828d",
+      "category": "blog",
+      "tags": [],
+      "status": "captured",
+      "source": "slack_command",
+      "slack_user": "U0AKBNKMP2R",
+      "slack_channel": "C0AKSHC6UES",
+      "created_at": "2026-03-21T19:18:22Z",
+      "promotions": [],
+      "evaluation": {
+        "scores": {
+          "market_demand": 8,
+          "competition_level": 7,
+          "uniqueness": 4,
+          "feasibility": 8,
+          "content_potential": 9
+        },
+        "overall_score": 6.8,
+        "verdict": "yes",
+        "competitors": [
+          {
+            "name": "ScrapeGraphAI",
+            "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+            "notes": "Direct competitor with 8k GitHub stars, LLM-based natural language scraping"
+          },
+          {
+            "name": "Firecrawl",
+            "url": "https://github.com/mendableai/firecrawl",
+            "notes": "AI-powered crawler with $2M funding and 50k+ API users"
+          },
+          {
+            "name": "Diffbot",
+            "url": "https://www.diffbot.com/",
+            "notes": "Enterprise leader with $51M funding and 1k+ enterprise clients"
+          },
+          {
+            "name": "Apify",
+            "url": "https://apify.com/",
+            "notes": "Market leader with $10M+ ARR and 100k+ users, adding AI actors"
+          }
+        ],
+        "market_summary": "The AI-driven web scraping market is experiencing explosive growth with a 39.4% CAGR, driven by demand for LLM training data and natural language interfaces. The global web scraping market is projected to reach $2.87B by 2034, with AI integration being a key differentiator.",
+        "recommendation": "Pursue this as educational content focusing on practical tutorials and comparisons, but avoid building a competing product unless you can solve the reliability and enterprise compliance gaps. The content potential is extremely high given the technical interest and rapid market growth.",
+        "risks": [
+          "High competition from well-funded players like Diffbot and rapidly growing open-source projects",
+          "Technical reliability issues with LLM-based scraping on complex sites reduce practical adoption"
+        ],
+        "research_source": "perplexity",
+        "evaluated_at": "2026-03-21T19:18:46Z"
+      }
     }
   ],
-  "next_id": 4
+  "next_id": 6
 }

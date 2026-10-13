@@ -255,16 +255,16 @@ def _run_evaluation_async(idea_id: int, idea_text: str, channel: str, client):
             msg = format_scorecard_slack(idea_text, scorecard)
             try:
                 client.chat_postMessage(channel=channel, text=msg)
-            except Exception:
-                pass
+            except Exception as exc:
+                print(f"[eval] Failed to post scorecard to {channel}: {exc}", flush=True)
         else:
             try:
                 client.chat_postMessage(
                     channel=channel,
                     text=f":warning: Could not evaluate idea #{idea_id} — check API keys (PERPLEXITY_API_KEY, ANTHROPIC_API_KEY).",
                 )
-            except Exception:
-                pass
+            except Exception as exc:
+                print(f"[eval] Failed to post warning to {channel}: {exc}", flush=True)
 
     thread = threading.Thread(target=_worker, daemon=True)
     thread.start()
